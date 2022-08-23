@@ -11,8 +11,25 @@ import {
 
 import { ListItem } from "@ui-kitten/components";
 
-const Item = ({ item }) => {
-  return <ListItem title={item.title} description={item.url} />;
+const Item = ({ item, navigation }) => {
+  return (
+    <ListItem
+      title={item.title}
+      description={item.url}
+      onPress={() => navigation.navigate("Detail", { url: item.url })}
+    />
+  );
 };
 
 export default Item;
+
+/*
+todo
+- fully populate cards with relevant data
+- infinite scroll
+- header bar with settings
+- dark mode
+- intuitive mobile-first navigation to get between different pages
+- ability to favorite cards
+- view commentsll
+*/
