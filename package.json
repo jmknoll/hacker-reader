@@ -10,8 +10,14 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@eva-design/eva": "^2.1.1",
+    "@tanstack/react-query": "^4.2.1",
+    "@ui-kitten/components": "^5.1.2",
+    "axios": "^0.27.2",
     "react": "18.0.0",
-    "react-native": "0.69.4"
+    "react-native": "0.69.4",
+    "react-native-svg": "^13.0.0",
+    "twrnc": "^3.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",

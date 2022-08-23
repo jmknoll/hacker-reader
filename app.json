@@ -1,4 +1,8 @@
 {
   "name": "HackerReader",
-  "displayName": "HackerReader"
+  "displayName": "HackerReader",
+  "compilerOptions": {
+    "baseUrl": "src"
+  },
+  "include": "src"
 }
